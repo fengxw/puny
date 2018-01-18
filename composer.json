@@ -1,0 +1,22 @@
+{
+    "name": "fenxw/puny",
+    "description": "a weeny, lightweight php framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albert",
+            "email": "feng235ping@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "psr/http-message": "^1.0",
+        "pimple/pimple": "^3.2",
+        "nikic/fast-route": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Puny\\" : "src/"
+        }
+    }
+}
